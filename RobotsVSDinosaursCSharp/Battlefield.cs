@@ -10,5 +10,11 @@ namespace RobotsVSDinosaursCSharp
     {
         public Fleet robotFleet;
         public Herd dinoHerd;
+
+        public Battlefield()
+        {
+            robotFleet = new Fleet();
+            dinoHerd= new Herd();
+        }
     }
 }

@@ -7,6 +7,8 @@
 //(10 points): As a developer, I want a Robot/Dinosaur to lose health points (loss based on attack power)
 //when another Robot/Dinosaur successfully attacks it.
 
-Fleet robotFleet = new Fleet();
+
+Battlefield Battlefield = new Battlefield();
+//Herd herd = new Herd();
 
 Console.WriteLine("");
