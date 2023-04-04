@@ -8,5 +8,7 @@ namespace RobotsVSDinosaursCSharp
 {
     internal class Battlefield
     {
+        public Fleet robotFleet;
+        public Herd dinoHerd;
     }
 }
