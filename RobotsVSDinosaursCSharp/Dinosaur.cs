@@ -25,6 +25,5 @@ namespace RobotsVSDinosaursCSharp
             string dinoPower = Console.ReadLine();
             attackPower = int.Parse(dinoPower);
         }
-
     }
 }

@@ -8,7 +8,7 @@
 //when another Robot/Dinosaur successfully attacks it.
 
 
-Battlefield Battlefield = new Battlefield();
-//Herd herd = new Herd();
+Battlefield battleField = new Battlefield();
+battleField.runGame();
 
-Console.WriteLine("");
+Console.ReadLine();

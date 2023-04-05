@@ -16,5 +16,13 @@ namespace RobotsVSDinosaursCSharp
             robotFleet = new Fleet();
             dinoHerd= new Herd();
         }
+
+        public void runGame()
+        {
+            robotFleet.displayFleet();
+            dinoHerd.displayHerd();
+        }
+        
+
     }
 }
