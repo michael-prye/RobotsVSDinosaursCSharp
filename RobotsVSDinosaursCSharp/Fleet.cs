@@ -8,7 +8,7 @@ namespace RobotsVSDinosaursCSharp
 {
     internal class Fleet
     {
-        List<Robot> robots;
+        public List<Robot> robots;
 
         public Fleet()
         {
@@ -26,7 +26,7 @@ namespace RobotsVSDinosaursCSharp
             Console.WriteLine("Robot Fleet:");
             for(int i = 0; i<robots.Count; i++)
             {
-                Console.WriteLine(i+":")
+                Console.WriteLine(i + ":");
                 Console.WriteLine("Name: " + robots[i].name);
                 Console.WriteLine("Health: " + robots[i].health);
                 Console.WriteLine("Weapon: " + robots[i].robotWeapon.name + " Power: " + robots[i].robotWeapon.attackPower + "\n");
